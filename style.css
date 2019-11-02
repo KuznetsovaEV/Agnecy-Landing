@@ -1,0 +1,142 @@
+:root {
+  --red: #ff3f40;
+}
+
+.main {
+  background-color: #f6f2f2;
+  padding: 0 100px 100px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  height: 89px;
+
+  background-color: #000000;
+  opacity: 0.8;
+}
+
+.nav-link {
+  padding: 33px 24px;
+
+  text-decoration: none;
+  color: #e0e0e0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: uppercase;
+
+  transition: 0.2s ease;
+}
+
+h1 {
+  color: #000000;
+  font-family: "Open Sans";
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 72px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+p {
+  color: #333333;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.nav-link:hover {
+  background: var(--red);
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 20px 63px;
+
+  border-radius: 5px;
+  background-color: var(--red);
+
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+
+  transition: 0.2s;
+}
+
+.btn.white {
+  background: white;
+  color: var(--red);
+  border: thin solid var(--red);
+}
+
+.btn:hover {
+  filter: brightness(80%);
+}
+
+.container {
+  display: flex;
+}
+
+h2 {
+  opacity: 0.8;
+  color: #000000;
+  font-family: "Open Sans";
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 55px;
+  text-transform: uppercase;
+  letter-spacing: 0.42px;
+}
+
+h3 {
+  width: 154px;
+  height: 24px;
+  opacity: 0.7;
+  color: #000000;
+  font-family: "Open Sans - Semibold";
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0.27px;
+}
+
+.provide {
+  padding: 0 100px 100px;
+  width: 760px;
+}
+
+.video {
+  width: 800px;
+  height: 300px;
+  background: grey;
+  margin-left: 80px;
+}
+
+.img {
+  height: 200px;
+  background-color: #ff3b4a;
+  background-image: linear-gradient(-225deg, #ffffff 0%, #ffffff 100%);
+}
+
+.group {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.qwer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 450px;
+}
+
+hr {
+  background-color: #ececec;
+  width: 1710px;
+  height: 2px;
+}
